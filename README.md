@@ -9,11 +9,14 @@ npm i mp-tags
 ## Usage
 
 ```javascript
-const { TAGS, DISPLAY } = require('mp-tags')
+const { TAGS, DISPLAY, NATIVE } = require('mp-tags')
 
 // All native tags in miniprogram
 // ['view', 'scroll-view', ...]
 TAGS
+
+// Native components in miniprogram
+NATIVE
 
 // Tags with default `display` property
 DISPLAY['block']
