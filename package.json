@@ -1,6 +1,6 @@
 {
   "name": "mp-tags",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tag list in miniprogram",
   "main": "lib",
   "author": "Jason <jason.daurus@gmail.com>",
