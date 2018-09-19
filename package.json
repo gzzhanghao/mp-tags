@@ -2,7 +2,8 @@
   "name": "mp-tags",
   "version": "0.1.1",
   "description": "Tag list in miniprogram",
-  "main": "lib",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
   "author": "Jason <jason.daurus@gmail.com>",
   "license": "MIT"
 }
