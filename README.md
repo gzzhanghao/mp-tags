@@ -9,18 +9,7 @@ npm i mp-tags
 ## Usage
 
 ```javascript
-const { TAGS, DISPLAY, NATIVE } = require('mp-tags')
+const MP_TAGS = require('mp-tags')
 
-// All native tags in miniprogram
-// ['view', 'scroll-view', ...]
-TAGS
-
-// Native components in miniprogram
-NATIVE
-
-// Tags with default `display` property
-DISPLAY['block']
-DISPLAY['inline-block']
-DISPLAY['inline']
-DISPLAY['flex']
+console.log(MP_TAGS) // ['template', 'slot', 'block', ...]
 ```
